@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script> -->
+    <script src="main.js" defer></script>
+    <title>Danny Trials</title>
+</head>
+<body>
+    <form id="myForm">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Username">
+        </div>
+        <div>
+            <label for="postTitle">Post Title</label>
+            <input type="text" name="postTitle" id="postTitle" placeholder="Post title">
+        </div>
+        <div>
+            <label for="postBody">Post</label>
+            <textarea type="textarea" name="postBody" id="postBody" placeholder="Post"></textarea>
+        </div>
+        <button type="submit" id="submitButton">Add post</button>
+    </form>
+
+    <input type="text" id="mySearchbox" onkeyup="searching()" placeholder="Search for a Username">
+    <table border= "1" id="myTable">
+    </table>
+</body>
+</html>
